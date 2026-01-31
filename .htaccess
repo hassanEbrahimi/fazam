@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^r/([A-Za-z0-9]+)$ v.php?c=$1 [L,QSA]
