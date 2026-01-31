@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'درخواست نامعتبر. لطفاً دوباره تلاش کنید.';
     } else {
     $expiry = $_POST['expiry'] ?? '1d';
-    $validExpiry = ['10m' => 10, '1h' => 60, '6h' => 360, '1d' => 1440, '5d' => 7200, '30d' => 43200];
+    $validExpiry = ['10m' => 10, '1h' => 60, '6h' => 360, '1d' => 1440, '5d' => 7200];
     $minutes = $validExpiry[$expiry] ?? 1440;
     $content = trim((string) ($_POST['content'] ?? ''));
     if (mb_strlen($content) > MAX_TEXT_LENGTH) {
