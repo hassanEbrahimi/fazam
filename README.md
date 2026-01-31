@@ -10,7 +10,7 @@ A minimal, self-hosted PHP application to share files or text via short links. U
 
 - **Share files** — Upload one or multiple files (up to 20 files, 25 MB each), get a short link
 - **Share text** — Paste text (up to 200,000 characters), get a short link
-- **Expiring links** — Choose expiry: 10 min, 1h, 6h, 1 day, 5 days, or 30 days
+- **Expiring links** — Choose expiry: 10 min, 1h, 6h, 1 day, or 5 days 
 - **Short codes** — 4-character alphanumeric codes (e.g. `r/AB12`)
 - **Pretty URL** — Optional rewrite: `yoursite.com/r/AB12` → view page
 - **Recent shares** — Last shared links stored in a cookie (client-side)
