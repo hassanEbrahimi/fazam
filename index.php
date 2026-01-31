@@ -89,7 +89,8 @@ if ($page === 'share-text') {
         </main>
 
         <footer class="footer">
-            لینک‌ها پس از مدت انتخاب‌شده به‌طور خودکار حذف می‌شوند
+            <p>لینک‌ها پس از مدت انتخاب‌شده به‌طور خودکار حذف می‌شوند</p>
+            <p class="footer-oss">این برنامه اوپن‌سورس و رایگان است. می‌توانید در مشارکت کد کمک کنید یا آن را روی هاست خود بالا بیاورید. <a href="https://github.com/hassanEbrahimi/fazam" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         </footer>
     </div>
 </body>

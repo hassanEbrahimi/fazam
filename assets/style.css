@@ -512,6 +512,18 @@ body {
     font-size: 0.8rem;
     color: var(--text-muted);
 }
+.footer-oss {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+}
+.footer-oss a {
+    color: var(--primary);
+    text-decoration: none;
+}
+.footer-oss a:hover {
+    text-decoration: underline;
+}
 
 /* ریسپانسیو — موبایل: جمع‌وجور برای جلوگیری از اسکرول */
 @media (max-width: 480px) {

@@ -86,6 +86,9 @@ $expiryMinutes = [
                 </form>
             <?php endif; ?>
         </main>
+        <footer class="footer">
+            <p class="footer-oss">این برنامه اوپن‌سورس و رایگان است. می‌توانید در مشارکت کد کمک کنید یا آن را روی هاست خود بالا بیاورید. <a href="https://github.com/hassanEbrahimi/fazam" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </footer>
     </div>
     <script src="assets/app.js"></script>
 </body>
